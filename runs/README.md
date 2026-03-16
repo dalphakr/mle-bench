@@ -57,3 +57,4 @@ table below.
 | LoongFlow                           | Gemini-3-Flash-preview, 24 hours, 36 vCPUs, 440 GB RAM, and 2 x A10 GPU or 2 x H20 GPU (depending on running nodes)               |
 | Disarray                            | Ensemble (Claude-Opus-4.5, Claude-Sonnet-4.5, GPT-5.2-Codex, Gemini-3-Pro-Preview), 24 hours, 24 vCPUs, 220GB of RAM and 1 A100 GPU |
 | MLEvolve                            | Gemini-3-Pro-preview, 12 hours, 21 vCPUs, 234GB of RAM, and 1 H200 GPU |
+| CobraAgent                          | Ensemble (Gemini-3.1-Pro-Preview, Gemini-3-Flash-Preview), 24 hours, (16 vCPUs, 32 GB RAM, and 1 RTX 4060 GPU / 11 vCPUS, 128 GB RAM, and 1 A100 GPU) |

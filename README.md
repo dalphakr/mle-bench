@@ -6,6 +6,7 @@ Code for the paper ["MLE-Bench: Evaluating Machine Learning Agents on Machine Le
 
 | Agent | LLM(s) used | Low == Lite (%) | Medium (%) | High (%) | All (%) | Running Time (hours) | Date | Known Leakage[^1] | Source Code Available | Grading Reports Available |
 |-------|-------------|-----------------|------------|----------|---------|----------------------|------|---------------|----------------------|---------------------------|
+| [CobraAgent](https://dalphakr.github.io/CobraAgent/)<br>(Dalpha)          |Ensemble (Gemini-3.1-Pro-Preview, Gemini-3-Flash-Preview)| 86.36 ± 0.00     | 81.58 ± 1.52      | 62.22 ± 2.22     | 79.11 ± 0.44   |24| 2026-03-17 | - |X|✓|
 | [Disarray](https://disarray.ai)                                  |Ensemble (Claude-Opus-4.5, Claude-Sonnet-4.5, GPT-5.2-Codex, Gemini-3-Pro-Preview)| 90.91 ± 0.00     | 72.81 ± 0.88      | 71.11 ± 2.22     | 77.78 ± 0.44   |24| 2026-02-03 | [✓](https://github.com/openai/mle-bench/pull/118) |X|✓|
 | [LoongFlow](https://github.com/baidu-baige/LoongFlow) | Gemini-3-Flash-Preview          | 77.27 ± 0.0[^3]  | 63.15 ± 1.51[^3]  |40.0 ± 0.00[^3]| 62.66 ± 0.76[^3] |24| 2026-02-09 | [✓](https://github.com/openai/mle-bench/pull/119) |✓|✓|
 | [MLEvolve](https://github.com/InternScience/MLEvolve) | Gemini-3-Pro-Preview | 80.30 ± 1.52 | 57.89 ± 1.52 | 42.22 ± 2.22 | 61.33 ± 1.33 | 12 | 2026-02-14 | - | ✓ | ✓ |
